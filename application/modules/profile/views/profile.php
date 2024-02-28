@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Ben's Resume - Profile HTML Page</title>
+    <title>Rizal Purnomo Resume - Profile HTML Page</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -106,13 +106,13 @@ https://www.tooplate.com/view/2120-ben-resume
                     <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
 
                     <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
-                        <li><strong>Full Name :</strong> Ben Wilson </li>
+                        <li><strong>Full Name :</strong> Rizal Purnomo </li>
 
-                        <li><strong>Date of Birth:</strong> 26 September 1999</li>
+                        <li><strong>Website :</strong> rizalpurnomo.skom.id</li>
 
-                        <li><strong>Website :</strong> company.co</li>
+                        <li><strong>Email :</strong> rizalpurnomo@gmail.com</li>
 
-                        <li><strong>Email :</strong> hello@company.co</li>
+                        <li><strong>Phone :</strong> 0857-1485-1984</li>
                     </ul>
                 </div>
 
@@ -348,11 +348,11 @@ https://www.tooplate.com/view/2120-ben-resume
                 <div class="mx-auto col-lg-4 col-md-6 col-12">
                     <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
 
-                    <p class="mb-1">010-020-0340</p>
+                    <p class="mb-1">0857-1485-1984</p>
 
                     <p>
                         <a href="#">
-                            hello@company.co
+                            rizalpurnomo@gmail.com
                             <i class="fas fa-arrow-right custom-icon"></i>
                         </a>
                     </p>
