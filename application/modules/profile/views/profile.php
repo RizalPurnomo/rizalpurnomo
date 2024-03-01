@@ -74,7 +74,7 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="row">
 
                 <div class="mx-auto col-lg-5 col-md-5 col-10">
-                    <img src="<?php echo base_url() ?>assets/profile/images/ben.jpg" class="img-fluid" alt="Ben Resume HTML Template">
+                    <img src="<?php echo base_url() ?>assets/profile/images/rizal.jpg" class="img-fluid" alt="Rizal Purnomo">
                 </div>
 
                 <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
