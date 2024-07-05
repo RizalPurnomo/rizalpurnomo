@@ -15,18 +15,22 @@ class Undangan extends CI_Controller
         $this->load->view('undangan', $data);
     }
 
-    function scan($kode)
+    function scan($kode = "")
     {
-        $data =  $this->Undangan_model->getUndanganByKode($kode);
-        if (count($data) > 0) {
-            if ($data[0]['is_hadir'] == 1) {
-                echo "Sudah Konfirmasi Kehadiran";
-            } else {
-                $data['scan'] = $data;
-                $this->load->view('result', $data);
-            }
+        if ($kode == "") {
+            $this->load->view('cari');
         } else {
-            echo "Data Tidak Ditemukan";
+            $data =  $this->Undangan_model->getUndanganByKode($kode);
+            if (count($data) > 0) {
+                if ($data[0]['is_hadir'] == 1) {
+                    echo "Sudah Konfirmasi Kehadiran";
+                } else {
+                    $data['scan'] = $data;
+                    $this->load->view('result', $data);
+                }
+            } else {
+                echo "Data Tidak Ditemukan";
+            }
         }
     }
 
@@ -50,5 +54,28 @@ class Undangan extends CI_Controller
             'data' => $data
         );
         echo json_encode($response);
+    }
+
+    function cari($kode)
+    {
+        $this->scan($kode);
+        // $data = $this->Undangan_model->getUndanganByKode($kode);
+
+        // $update = $this->Undangan_model->updateData($kode, $data, 'undangan');
+        // if ($update) {
+        //     $success = true;
+        //     $result = "Data Undangan berhasil diupdate";
+        // } else {
+        //     $success = false;
+        //     $result = "Data Undangan gagal diupdate";
+        // }
+
+
+        // $response = array(
+        //     // 'success' => $success,
+        //     // 'messages'   => $result,
+        //     'data' => $data
+        // );
+        // echo json_encode($response);
     }
 }

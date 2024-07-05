@@ -50,7 +50,7 @@ https://www.tooplate.com/view/2120-ben-resume
                     </li>
 
                     <li class="nav-item">
-                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                        <a href="#prestasi" class="nav-link smoothScroll">Prestasi</a>
                     </li>
 
                     <li class="nav-item">
@@ -101,9 +101,8 @@ https://www.tooplate.com/view/2120-ben-resume
                 <div class="col-lg-6 col-md-6 col-12">
                     <h3 class="mb-4">This is Rizal Purnomo Resume</h3>
 
-                    <p>Ben Resume HTML Template is brought to you by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate website</a>. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.</p>
+                    <p>Saya adalah seorang web developer dengan pengalaman 5 tahun di bidang yang sama. Saya terbiasa menggunakan JavaScript, HTML, PHP dan CSS dalam mengembangkan website.</p>
 
-                    <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
 
                     <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
                         <li><strong>Full Name :</strong> Rizal Purnomo </li>
@@ -117,11 +116,11 @@ https://www.tooplate.com/view/2120-ben-resume
                 </div>
 
                 <div class="col-lg-5 mx-auto col-md-6 col-12">
-                    <img src="<?php echo base_url() ?>assets/profile/images/true-agency.jpg" class="about-image img-fluid" alt="Ben's Resume HTML Template">
+                    <img src="<?php echo base_url() ?>assets/profile/images/best-it2023-a.jpg" class="about-image img-fluid" alt="Best IT Radar Jakarta 2023">
                 </div>
 
             </div>
-            <div class="row about-third">
+            <!-- <div class="row about-third">
                 <div class="col-lg-4 col-md-4 col-12">
                     <h3>Integer volutpat</h3>
                     <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
@@ -134,13 +133,13 @@ https://www.tooplate.com/view/2120-ben-resume
                     <h3>Integer id neque</h3>
                     <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
 
     <!-- TESTIMONIAL -->
-    <section class="testimonials section-padding" id="testimonials">
+    <!-- <section class="testimonials section-padding" id="testimonials">
         <div class="container">
             <div class="row">
 
@@ -213,11 +212,11 @@ https://www.tooplate.com/view/2120-ben-resume
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- FAQ -->
-    <section class="faq section-padding">
+    <section class="faq section-padding" id="prestasi">
 
         <div class="container">
 
@@ -225,23 +224,23 @@ https://www.tooplate.com/view/2120-ben-resume
 
                 <div class="col-lg-12 col-12">
 
-                    <h3 class="mb-5">Frequently Asked Questions</h3>
+                    <h3 class="mb-5">Prestasi</h3>
 
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Are those HTML templates absolutely free for any kind of usage?
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        IT Terbaik Radar Jakarta Tahun 2023
                                     </button>
                                 </h2>
                             </div>
-
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>Yes, they are 100% free and there is no hidden charge.</p>
-
-                                    <p>They can be used for your commercial websites.</p>
+                                    <div class="col-lg-5 mx-auto col-md-6 col-12">
+                                        <img src="<?php echo base_url() ?>assets/profile/images/best-it2023.jpg" class="about-image img-fluid" alt="IT Terbaik Radar Jakarta Tahun 2023">
+                                    </div>
+                                    <p>23 Juni 2024</p>
                                 </div>
                             </div>
                         </div>
@@ -249,64 +248,26 @@ https://www.tooplate.com/view/2120-ben-resume
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Can I use them as a CMS theme or a part of website builder?
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        Best Employee Puskesmas Matraman Tahun 2022
                                     </button>
                                 </h2>
                             </div>
+
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                 <div class="card-body">
-                                    <p>Yes, you can use them.</p>
+                                    <div class="col-lg-5 mx-auto col-md-6 col-12">
+                                        <img src="<?php echo base_url() ?>assets/profile/images/best-employee2022.jpg" class="about-image img-fluid" alt="Best Employee Puskesmas Matraman Tahun 2022">
+                                    </div>
+                                    <p>9 Desember 2022</p>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        I cannot find a suitable HTML template. Can I request new template?
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                        Can I redistribute your templates?
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="card">
-                            <div class="card-header" id="headingFive">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        How do I support Tooplate?
-                                    </button>
-                                </h2>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
+                        <!-- <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span> -->
 
                     </div>
 
@@ -321,7 +282,7 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12">
-                    <form action="#" method="get" class="contact-form webform" role="form">
+                    <!-- <form action="#" method="get" class="contact-form webform" role="form">
 
                         <div class="form-group d-flex flex-column-reverse">
                             <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
@@ -342,7 +303,7 @@ https://www.tooplate.com/view/2120-ben-resume
                         </div>
 
                         <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
-                    </form>
+                    </form> -->
                 </div>
 
                 <div class="mx-auto col-lg-4 col-md-6 col-12">
@@ -358,16 +319,16 @@ https://www.tooplate.com/view/2120-ben-resume
                     </p>
 
                     <ul class="social-links mt-2">
-                        <li><a href="https://fb.com/tooplate" rel="noopener" class="fab fa-facebook"></a></li>
-                        <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
-                        <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>
-                        <li><a href="#" rel="noopener" class="fab fa-linkedin"></a></li>
-                        <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+                        <li><a href="https://www.facebook.com/rizal.purnomo/" rel="noopener" class="fab fa-facebook"></a></li>
+                        <!-- <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li> -->
+                        <li><a href="https://www.instagram.com/rizalpurnomo114/" rel="noopener" class="fab fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/rizal-purnomo-6826b2188/" rel="noopener" class="fab fa-linkedin"></a></li>
+                        <!-- <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li> -->
                     </ul>
 
-                    <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
+                    <p class="copyright-text mt-5 pt-3">Copyright &copy; 2024 Rizal Purnomo</p>
 
-                    <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+                    <!-- <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p> -->
                 </div>
 
             </div>

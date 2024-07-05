@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Rizal Purnomo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- <link href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" rel="stylesheet"> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
         <div class="card">
             <h5 class="card-header">DATA UNDANGAN</h5>
             <div class="card-body">
-                <input type="text" id="kode" name="kode" value="<?php echo $scan[0]['kode'] ?>">
+                <input type="hidden" id="kode" name="kode" value="<?php echo $scan[0]['kode'] ?>">
                 <h5 class="card-title"><?php echo $scan[0]['kode'] ?></h5>
                 <h4 class="card-title"><?php echo $scan[0]['nama'] ?></h4>
                 <p class="card-text">Anda Terdaftar dan mendapatkan <b><?php echo $scan[0]['quota'] ?></b> kupon</p>
